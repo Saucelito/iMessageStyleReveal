@@ -55,7 +55,7 @@ extension UITableView: UIGestureRecognizerDelegate {
         }
     }
     
-    func handleRevealPan(_ gesture: UIPanGestureRecognizer) {
+    @objc func handleRevealPan(_ gesture: UIPanGestureRecognizer) {
         switch gesture.state {
         case .began:
             addObserver(self, forKeyPath: "contentOffset", options: .new, context: &AssociationKey.panGesture)

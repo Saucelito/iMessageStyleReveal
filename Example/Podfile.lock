@@ -1,10 +1,14 @@
 PODS:
   - LoremIpsum (1.0.0)
-  - RevealableCell (1.0)
+  - RevealableCell (2.0)
 
 DEPENDENCIES:
   - LoremIpsum
   - RevealableCell (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LoremIpsum
 
 EXTERNAL SOURCES:
   RevealableCell:
@@ -12,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   LoremIpsum: 9029c55d36501b2ee0b05cc9ecda11d3a0479160
-  RevealableCell: cd593a7c278e6dcda843232c6eaecf8666164e22
+  RevealableCell: 1f8e43787b2818783d6a3c14089f928231f0523a
 
 PODFILE CHECKSUM: 28102e5d51d438abd97b513e4c4eae31eb0830bc
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.7.0.beta.1
